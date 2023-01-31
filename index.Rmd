@@ -1,0 +1,35 @@
+---
+title: "Index"
+output: html_document
+---
+
+Last updated: *`r Sys.time()`*.
+
+```{r, include=FALSE}
+# source("./R/first_chunk.R")
+```
+
+# Description
+
+This is example project skeletor for rmarkdown site.
+
+## General
+
+- [Listing 1](index.html)
+- [Listing 2](index.html)
+- [Listing 3](index.html)
+- [Listing 4](index.html)
+
+<br>
+<br>
+
+***Fig.** PLOT.* 
+```{r, echo=FALSE, warning=FALSE, include=TRUE}
+
+```
+
+
+
+
+
+

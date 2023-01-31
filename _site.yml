@@ -1,0 +1,33 @@
+name: "Example Site"
+navbar:
+  title: "Skeletor"
+  type: default
+  left:
+    - text: "General"
+      icon: fa-file-text 
+      menu:
+      - text: "Reports"
+      - text: "First report"
+        href: report.html
+    - text: "Another"
+      icon: fa-hospital-o 
+      menu:
+      - text: "Reports"
+      - text: "Another report"
+        href: report.html
+      - text: "----------------------------------------------"
+      - text: "An-other report"
+        href: report.html
+  right:
+    - text: "</> Source"
+      href: "https://github.com"
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+    include:
+      after_body: footer.html
+    css: styles.css
